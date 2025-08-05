@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Nathan Snook",
-  title: "Senior Software Engineer",
+  title: "Aspiring Junior Developer",
   description: "Portfolio website of Ryan Fitzgerald",
   accentColor: "#1d4ed8",
   social: {
