@@ -6,7 +6,7 @@ export const siteConfig = {
   accentColor: "#a54c9e",
   textColor: "#000000",
   backgroundColor: "#000000",
-  foregroundColor: "#f2f2f2",
+  foregroundColor: "#ffffff",
   social: {
     email: "snooknate.ns@gmail.com",
     linkedin: "https://linkedin.com/in/yourprofile",
@@ -21,53 +21,33 @@ export const siteConfig = {
       name: "AI Dev Roundup Newsletter",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "#",
       skills: ["React", "Node.js", "AWS"],
     },
     {
       name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+      link: "#",
       skills: ["React", "Node.js", "AWS"],
     },
     {
       name: "ExtensionKit",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      link: "#",
       skills: ["React", "Node.js", "AWS"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Eurekatec",
+      title: "Junior Developer",
+      dateRange: "April 2022 - September 2022",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Developed a responsive front-end interface and a robust back-end system that continuously ingested 21000 data points per hour from microcontrollers.",
+        "Collaborated with the management to analyze production metrics, enabling rapid detection of production errors and improving manufacturing reliability.",
+        "Optimized data flow and visualization tools to support quick decision-making and ongoing performance improvements on the factory floor.",
       ],
     },
   ],
@@ -77,7 +57,7 @@ export const siteConfig = {
       degree: "Computer Programming Diploma",
       dateRange: "2019 - 2022",
       achievements: [
-        "Graduated Honors Student",
+        "Honours Graduate",
       ],
     },
   ],
