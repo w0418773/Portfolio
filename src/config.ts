@@ -1,17 +1,20 @@
 export const siteConfig = {
   name: "Nathan Snook",
   title: "Aspiring Junior Developer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  description: "Portfolio website of Nathan Snook",
+  primaryColor: "#a54c9e",
+  accentColor: "#571f7f",
+  textColor: "#ffffff",
+  backgroundColor: "#000000",
   social: {
-    email: "your-email@example.com",
+    email: "snooknate.ns@gmail.com",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    github: "https://github.com/w0418773/",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hi I’m Nathan, I'm a versatile software developer with a strong background in both technical support and retail management. Equipped with a Computer Programming diploma and hands-on experience in various programming languages, I excel in web development, software design, and systems administration. My leadership experience as a Retail Supervisor has refined my problem-solving, teamwork, and communication skills. Skilled in software development, systems administration, and network security, I combine technical expertise with strong interpersonal skills to deliver effective, user-focused solutions. I’m passionate about leveraging my diverse expertise to develop innovative solutions and contribute to dynamic tech teams.",
+  skills: ["Programming and Software Development", "Technical Support and Systems Administration", "Project Management", "Leadership and Team Management", "Problem-Solving and Analytical Thinking", "Communication and Interpersonal Skills", "Adaptability and Multitasking"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -69,23 +72,11 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Nova Scotia Community College",
+      degree: "Computer Programming Diploma",
+      dateRange: "2019 - 2022",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated Honors Student",
       ],
     },
   ],
