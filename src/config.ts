@@ -9,8 +9,8 @@ export const siteConfig = {
   foregroundColor: "#ffffff",
   social: {
     email: "snooknate.ns@gmail.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
+    linkedin: "#",
+    twitter: "#",
     github: "https://github.com/w0418773/",
   },
   aboutMe:
