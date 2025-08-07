@@ -18,25 +18,36 @@ export const siteConfig = {
   skills: ["Programming and Software Development", "Technical Support and Systems Administration", "Project Management", "Leadership and Team Management", "Problem-Solving and Analytical Thinking", "Communication and Interpersonal Skills", "Adaptability and Multitasking"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Recipe Scrapper Bot",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "#",
-      skills: ["React", "Node.js", "AWS"],
+      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      link: "https://replit.com/@snooknate/RecipeBot?v=1#main.py",
+      skills: ["Python", "Tkinter", "BeautifulSoup", "GUI", "Web Scraping", "APIs"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Lottery Number Generator",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       link: "#",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["SKILLS"],
     },
     {
-      name: "ExtensionKit",
+      name: "Wordle Solver",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       link: "#",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["SKILLS"],
+    },
+    {
+      name: "Flight Tracker",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      link: "#",
+      skills: ["SKILLS"],
     },
   ],
   experience: [
