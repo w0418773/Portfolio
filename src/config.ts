@@ -9,8 +9,8 @@ export const siteConfig = {
   foregroundColor: "#ffffff",
   social: {
     email: "snooknate.ns@gmail.com",
-    linkedin: "#",
-    twitter: "#",
+    linkedin: "",
+    twitter: "",
     github: "https://github.com/w0418773/",
   },
   aboutMe:
@@ -45,10 +45,16 @@ export const siteConfig = {
     {
       name: "Lottery Number Generator",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      link: "#",
-      skills: ["SKILLS"],
+        "This fun project was built to explore patterns in lottery numbers. The bot scrapes winning combinations \
+        from 2009 to present, analyzes the most common number in each position, and generates a 'likely' set of \
+        numbers based on historical trends. Built to experiment with web scraping, data analysis, and bot logic.",
+      reflection:
+      "If I were to recreate this project, I would modify the logic to identify the top 3 most frequent numbers \
+      per position rather than just the most common one. This would generate more diverse combinations and \
+      potentially increase the odds of hitting a winning number. It would also make the predictions feel less \
+      repetitive and more engaging for users.",
+      link: "https://github.com/w0418773/Lottery-Bot",
+      skills: ["Python", "Tkinter", "HTML Requests", "GUI", "Web Scraping", "APIs", "Data Analysis"],
     },
     {
       name: "Wordle Solver",
@@ -70,8 +76,18 @@ export const siteConfig = {
       name: "Flight Tracker",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      reflection:"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      reflection:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       link: "#",
+      skills: ["SKILLS"],
+    },
+    {
+      name: "Discord Movie Bot",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      reflection:
+      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      link: "https://github.com/w0418773/MovieBot",
       skills: ["SKILLS"],
     },
   ],
