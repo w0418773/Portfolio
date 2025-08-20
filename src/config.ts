@@ -75,20 +75,33 @@ export const siteConfig = {
     {
       name: "Flight Tracker",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This project was developed as part of my college coursework. The web page displays an interactive \
+         map showing flights originating from Canada. Each flight is represented by an icon that points in \
+         the direction of travel. Clicking on a flight icon opens a popup with detailed flight information.",
       reflection:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      link: "#",
-      skills: ["SKILLS"],
+      "This project is now three years old. Upon revisiting it, I discovered an issue with the flight data \
+      API, each IP address is limited to a set number of requests, and exceeding this limit causes the \
+      application to stop functioning. This limitation wasn’t encountered during the initial build. Replacing \
+      the current API with one that offers higher or unlimited requests would greatly improve reliability. \
+      Additionally, implementing a sorting feature to dynamically filter flights by location would enhance \
+      usability.",
+      link: "https://github.com/w0418773/Flight-Tracker",
+      skills: ["JavaScript", "Asynchronous Programming", "GeoJSON", "HTML", "CSS", "APIs"],
     },
     {
       name: "Discord Movie Bot",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This project is a lightweight Discord bot built during COVID-19 to help my friends coordinate remote \
+        movie nights. It featured adding, viewing, and removing movies from a shared watchlist directly in \
+        Discord, making it easy to stay connected and entertained. The bot was self hosted using a headless \
+        RaspberryPi.",
       reflection:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "The bot included all basic CRUD functionality except for Update. Adding this feature would enhance the \
+      user experience by allowing edits to existing entries. Movie data was stored in a plain text file, with \
+      each movie on a separate line and read into the application via Python. Migrating to a database solution \
+      like SQLite would improve data handling, scalability, and reliability.",
       link: "https://github.com/w0418773/MovieBot",
-      skills: ["SKILLS"],
+      skills: ["Python", "File I/O", "Discord API", "CRUD"],
     },
   ],
   experience: [
